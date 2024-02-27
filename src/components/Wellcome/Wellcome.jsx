@@ -17,10 +17,10 @@ const Wellcome = () => {
         <div className="mr-2 col-start-6 text-[50px] font-serif italic">
             <ul>
                 <li className="flex justify-end">
-                    Projects
+                    Experience
                 </li>
                 <li className="flex justify-end">
-                    About
+                    Story
                 </li>
                 <li className="flex justify-end">
                     Contact
