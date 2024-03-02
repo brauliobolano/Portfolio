@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Navigation from './components/Navigation/Navigation'
 import Timeline from './components/Timeline/Timeline'
@@ -8,8 +9,9 @@ function App() {
   return (
     <>
     <Navigation />
+    < Contact />
     {/* <Wellcome />  */}
-    <Timeline />
+{/*     <Timeline /> */} 
 {/*     <div className='absolute bottom-0 w-full'>
       <Footer />
     </div> */}
