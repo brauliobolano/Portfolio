@@ -1,4 +1,7 @@
+import { useNavigate } from 'react-router-dom';
+
 const Wellcome = () => {
+    const navigate = useNavigate();
   return (
     <div className="flex justify-center text-[40px] grid grid-cols-6">
         <div className="col-start-2 col-end-5 mt-24">
@@ -17,13 +20,13 @@ const Wellcome = () => {
         <div className="mr-2 col-start-6 text-[50px] font-serif italic">
             <ul>
                 <li className="flex justify-end">
-                    Experience
+                    <button onClick={() => navigate("/projects")}>Experience</button>
                 </li>
                 <li className="flex justify-end">
-                    Story
+                    <button onClick={() => navigate("/timeline")}>Story</button> 
                 </li>
                 <li className="flex justify-end">
-                    Contact
+                    <button onClick={() => navigate("/contact")}>Contact</button>
                 </li>
             </ul>
         </div>
