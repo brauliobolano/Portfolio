@@ -133,7 +133,7 @@ function App() {
             <Navigation isDark={isDark} setIsDark={setIsDark} setColorMode={setColorMode} />
             <Wellcome />
           </>} />
-          <Route path="/projects" element={<>\
+          <Route path="/projects" element={<>
             <Navigation isDark={isDark} setIsDark={setIsDark} setColorMode={setColorMode} />
             <Projects />
           </>} />

@@ -27,7 +27,7 @@ const TimelineObject = ({ cardDate, cardTitle, cardTitle2, cardText1, cardText2,
                     
                 </div>
                 {/* <!-- Card --> */}
-                <div className=" dark:bg-gradient-to-r dark:from-gray-100 dark:to-cycan-100 bg-gradient-to-r from-gray-200 to-cycan-100 dark:bg-gray-700 dark:bg-gray-950 p-4 rounded border border-slate-200 dark:text-slate-900 shadow ml-14 md:ml-44">
+                <div className=" dark:bg-gradient-to-r dark:from-gray-100 dark:to-gray-400 bg-gradient-to-r from-gray-200 to-cycan-100 dark:bg-gray-700 dark:bg-gray-950 p-4 rounded border border-slate-200 dark:text-slate-900 shadow ml-14 md:ml-44">
                     <ul>
                         <li>{cardText1}</li>
                         <li>{cardText2}</li>
