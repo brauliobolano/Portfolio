@@ -21,6 +21,7 @@ const Projects = () => {
                         proText="A collection of resources for developers I had used and found useful. Interesting featurs: dark mode and language selection."
                         proLink="https://brauliobolano.github.io/dev-resources/"
                         proCenterSVG={devResSVG}
+                        repoLink="https://github.com/brauliobolano/dev-resources"
                     />
                     <ProjectObject
                         proTitle="Smart Brain"
@@ -28,6 +29,7 @@ const Projects = () => {
                         proText="Simple face recognition app made with React. It uses the Clarifai API to detect faces in images. It uses tachyons for styling"
                         proLink="https://brauliobolano.github.io/SmartBrain/"
                         proCenterSVG={smartBrainSVG}
+                        repoLink="https://github.com/brauliobolano/SmartBrain"
                     />
 
             <ProjectObject
@@ -38,6 +40,7 @@ const Projects = () => {
 /*                 SVG1={reactSVG}
                 SVG2={viteSVG} */
                 proCenterSVG={ticTacToeSVG}
+                repoLink="https://github.com/brauliobolano/react-tic-tac-toe"
             />
 
             <ProjectObject
@@ -46,6 +49,7 @@ const Projects = () => {
                 proText="Simple React app that fetches data from an API and displays it in a card format. It was made to practice React and to learn how to fetch data from an API"
                 proLink="https://brauliobolano.github.io/RobotFriend_ZTM/"
                 proCenterSVG={robotSVG}
+                repoLink="https://github.com/brauliobolano/RobotFriend_ZTM"
             />
         </div>
             <OldProjects />
