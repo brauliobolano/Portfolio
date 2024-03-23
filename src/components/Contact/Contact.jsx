@@ -7,12 +7,14 @@ const Contact = () => {
                     <br/>
                     <br/>
                     Email: 
-                    <a className="underline underline-offset-4 px-1 hover:line-through cursor-pointer">myeamail@com</a>
+                    <a href="mailto:workportfoliopersonal@gmail.com?subject=Hello&amp;body=Just%20saying%20hello!" className="underline underline-offset-4 px-1 hover:line-through cursor-pointer">work-email.com</a>
                     <br/>
                     Social medias: 
-                    <a className="underline px-1 hover:line-through cursor-pointer">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/braulio-bolano-trujillo/" className="underline px-1 hover:line-through cursor-pointer">Linkedin</a>
                     /
-                    <a className="underline px-1 hover:line-through cursor-pointer">GitHub</a>
+                    <a href="https://github.com/brauliobolano" className="underline px-1 hover:line-through cursor-pointer">GitHub</a>
+                    /
+                    <a href="https://www.buymeacoffee.com/braulio" className="underline px-1 hover:line-through cursor-pointer">Buy-me-a-Coffe</a>
                 </p>
 
             </div>
