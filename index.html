@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script>
+      // Check for theme preference in localStorage and apply it to prevent flash of light theme
+      const theme = localStorage.getItem('theme');
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BpmK57id.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-MMuwAwv3.css">
+  </head>
+  <body class="dark:bg-gray-950 dark:text-gray-300">
+    <div id="root"></div>
+  </body>
+</html>
