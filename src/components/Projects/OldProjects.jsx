@@ -1,5 +1,5 @@
 const OldProjects = () => {
-    const classLI = "mx-5";
+    const classLI = "mx-5 underline hover:line-through cursor-pointer";
     return (
         <div className="">
         <h1 className="mt-10 mb-5 flex justify-center text-4xl">Old Projects</h1>

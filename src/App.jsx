@@ -17,7 +17,7 @@ import { useEffect, useState, useMemo } from "react";
 function App() { 
 
   const [isDark, setIsDark] = useState(false);
-  const [colorMode, setColorMode] = useState("#C0C4C4");
+  const [colorMode, setColorMode] = useState("#E9D2F5"); // E9D2F5 #C0C4C4
   const [init, setInit] = useState(false);
   
     // this should be run only once per application lifetime

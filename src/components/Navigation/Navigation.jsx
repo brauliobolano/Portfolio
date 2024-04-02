@@ -15,11 +15,11 @@ const Navigation = ({isDark, setIsDark, setColorMode }) => {
     if (document.documentElement.classList.contains('dark')) {
         localStorage.setItem('theme', 'dark');
         setIsDark(true);
-        setColorMode("#19F8F3");        
+        setColorMode("#E9D2F5");        
     } else {
         localStorage.setItem('theme', 'light');
         setIsDark(false);
-        setColorMode("#C0C4C4");
+        setColorMode("#C0C4C4");  //C0C4C4
 
     }
     }
@@ -30,7 +30,7 @@ const Navigation = ({isDark, setIsDark, setColorMode }) => {
         if (theme === 'dark') {
             document.documentElement.classList.add('dark');
             setIsDark(true); // Set state to dark mode if theme preference is dark
-            setColorMode("#19F8F3"); 
+            setColorMode("#E9D2F5"); 
         } else if (theme === 'light') {
             document.documentElement.classList.remove('dark');
             setIsDark(false); // Set state to light mode if theme preference is light
