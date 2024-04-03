@@ -1,6 +1,4 @@
-const TimelineObject = ({ cardDate, cardTitle, cardTitle2, cardText1, cardText2, cardText3, cardText4, cardText5, cardText6, cardText7, titleSVG, centerSVG, titleLink}) => {
-    
-
+const TimelineObject = ({ cardDate, cardTitle, cardTitle2, cardText1, cardText2, cardText3, cardText4, cardText5, cardText6, cardText7, titleSVG, centerSVG, titleLink}) => {    
     return (
         <>
             <div className="relative">
